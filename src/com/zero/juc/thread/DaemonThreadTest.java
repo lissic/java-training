@@ -5,7 +5,7 @@ package com.zero.juc.thread;
  * @description BaseTest
  * @date 2022/8/25 16:51
  */
-public class BaseTest {
+public class DaemonThreadTest {
     public static void main(String[] args) {
 
         Thread thread = new Thread(() -> {
